@@ -1,8 +1,10 @@
 import React from "react";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Work from "../components/Work";
-import Portofolio from "../components/Portofolio";
+import Hero from "../components/hero/Hero";
+import About from "../components/about/About";
+import Work from "../components/work/Work";
+import Portofolio from "../components/portofolio/Portofolio";
+import Testimonials from "../components/testimonials/Testimonials";
+import Footer from "../components/footer/Footer";
 
 const LandingPage = () => {
     return (
@@ -11,6 +13,8 @@ const LandingPage = () => {
             <About />
             <Work />
             <Portofolio />
+            <Testimonials />
+            <Footer />
         </>
     );
 };

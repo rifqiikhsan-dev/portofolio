@@ -1,17 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 const Hero = () => {
-    const [professionIndex, setProfessionIndex] = useState(0);
-    const professions = ["Webflow Developer", "UI/UX Designer", "Frontend Developer", "Web Designer"];
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setProfessionIndex((prevIndex) => (prevIndex + 1) % professions.length);
-        }, 3000);
-
-        return () => clearInterval(interval);
-    }, [professions.length]);
-
     return (
         <section className="w-full h-screen bg-[#C7D0D9] relative overflow-hidden">
             {/* Navbar */}
@@ -42,9 +31,11 @@ const Hero = () => {
 
             {/* Animated Profession Text */}
             <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 w-full z-10 text-center px-4">
-                <div className="text-4xl md:text-6xl lg:text-[150px] text-white font-semibold transition-all duration-700 ease-in-out">
-                    {professions[professionIndex]}
-                </div>
+                <marquee scrollamount="20" behavior="scroll" direction="left" className="w-full">
+                    <div className="text-4xl md:text-6xl lg:text-[150px] text-white font-semibold transition-all duration-700 ease-in-out">
+                        Webflow Developer - UI/UX Designer - Frontend Developer - Web Designer
+                    </div>
+                </marquee>
             </div>
         </section>
     );

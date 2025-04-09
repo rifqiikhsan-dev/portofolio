@@ -5,10 +5,12 @@ import Work from "../components/work/Work";
 import Portofolio from "../components/portofolio/Portofolio";
 import Testimonials from "../components/testimonials/Testimonials";
 import Footer from "../components/footer/Footer";
+import Navbar from "../components/navbar/Navbar";
 
 const LandingPage = () => {
     return (
         <>
+            <Navbar />
             <Hero />
             <About />
             <Work />

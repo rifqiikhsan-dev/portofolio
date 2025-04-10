@@ -10,7 +10,7 @@ const Footer = () => {
                     </p>
                     <div className="flex items-center">
                         <img
-                            src="/src/assets/profile.png"
+                            src="/assets/profile.png"
                             alt="profile"
                             className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] rounded-full"
                         />

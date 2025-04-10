@@ -58,7 +58,7 @@ const Navbar = () => {
                     </button>
 
                     <div className="flex flex-col gap-4 mt-12 text-2xl font-semibold">
-                        <a href="#" onClick={() => setIsNavOpen(false)}>
+                        <a href="/" onClick={() => setIsNavOpen(false)}>
                             Home
                         </a>
                         <a href="#" onClick={() => setIsNavOpen(false)}>

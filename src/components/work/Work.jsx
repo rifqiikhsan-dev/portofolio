@@ -28,11 +28,7 @@ const Work = () => {
                                     onMouseLeave={() => setHoveredIndex(null)}
                                 >
                                     <img
-                                        src={
-                                            hoveredIndex === index
-                                                ? "/src/assets/arrow_white.png"
-                                                : "/src/assets/arrow.png"
-                                        }
+                                        src={hoveredIndex === index ? "/assets/arrow_white.png" : "/assets/arrow.png"}
                                         alt="Arrow"
                                         className="w-4 md:w-5"
                                     />

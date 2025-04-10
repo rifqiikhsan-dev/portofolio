@@ -5,19 +5,19 @@ const Portfolio = () => {
     const row2Ref = useRef(null);
 
     const imagesRow1 = [
-        "/src/assets/portofolio_1.png",
-        "/src/assets/portofolio_2.png",
-        "/src/assets/portofolio_3.png",
-        "/src/assets/portofolio_4.png",
-        "/src/assets/portofolio_5.png",
+        "/assets/portofolio_1.png",
+        "/assets/portofolio_2.png",
+        "/assets/portofolio_3.png",
+        "/assets/portofolio_4.png",
+        "/assets/portofolio_5.png",
     ];
 
     const imagesRow2 = [
-        "/src/assets/portofolio_4.png",
-        "/src/assets/portofolio_5.png",
-        "/src/assets/portofolio_1.png",
-        "/src/assets/portofolio_6.png",
-        "/src/assets/portofolio_2.png",
+        "/assets/portofolio_4.png",
+        "/assets/portofolio_5.png",
+        "/assets/portofolio_1.png",
+        "/assets/portofolio_6.png",
+        "/assets/portofolio_2.png",
     ];
 
     useEffect(() => {

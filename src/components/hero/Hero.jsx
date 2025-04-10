@@ -94,7 +94,7 @@ const Hero = () => {
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                 >
-                    <img src="/src/assets/hai_image.png" alt="Wave Icon" className="w-6 h-6 md:w-8 md:h-8" />
+                    <img src="/assets/hai_image.png" alt="Wave Icon" className="w-6 h-6 md:w-8 md:h-8" />
                     {isHovered && (
                         <span className="text-base md:text-[30px] whitespace-nowrap transition-opacity duration-300 opacity-100">
                             Hi I'm Rifqi
@@ -105,7 +105,7 @@ const Hero = () => {
 
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10 w-full text-center">
                 <img
-                    src="/src/assets/hero_image.png"
+                    src="/assets/hero_image.png"
                     alt="profile"
                     className="rounded-lg w-64 md:w-[500px] object-cover mx-auto"
                 />

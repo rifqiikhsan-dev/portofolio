@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="flex flex-col lg:flex-row justify-center gap-12">
                 <div className="flex flex-col gap-6 md:gap-14 w-full lg:w-1/2">
                     <img
-                        src="/src/assets/profile.png"
+                        src="/assets/profile.png"
                         alt="profile"
                         className="w-[200px] h-[200px] md:w-[320px] md:h-[320px]  rounded-full object-cover"
                     />

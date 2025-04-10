@@ -6,14 +6,14 @@ const testimonials = [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
         name: "Rifqi Ikhsan Rizkillah",
         position: "CEO, Bebeul IT Solution",
-        avatar: "/src/assets/profile.png",
+        avatar: "/assets/profile.png",
     },
     {
         message:
             "Duis aute irure dolor in reprehenderit in voluptate velit esse Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         name: "Jane Smith",
         position: "CTO, Another Company",
-        avatar: "/src/assets/profile.png",
+        avatar: "/assets/profile.png",
     },
 ];
 
